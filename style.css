@@ -1,0 +1,106 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.company{
+    margin-left: 20px;
+}
+
+li,h1,ul{
+    display: inline;
+
+}
+
+ul{
+    margin-left: 70%;
+    color: gray;
+}
+
+li:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+input{
+    width: 600px;
+    height: 5px;
+    padding: 15px;
+
+}
+
+.searchbar{
+    padding: 50px;
+    text-align: center;
+}
+
+.box{
+    padding: 15px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 220px;
+    
+}
+
+.box:hover{
+    background-color: #e0c399;
+    color: black;
+    cursor: pointer;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.about{
+    text-align: center;
+    padding: 30px;
+}
+
+.contact{
+    padding: 30px 20px 30px 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.email{
+    color: white;
+    text-decoration: none;
+}
+
+.email:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.contactinfo{
+    padding-top: 15px;
+    font-size: small;
+}
+
+.perfumename{
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.description{
+    padding-top: 5px;
+    font-size: 1em;
+    font-style: italic;
+    text-align: justify;
+}
